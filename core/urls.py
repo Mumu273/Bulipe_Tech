@@ -34,6 +34,8 @@ urlpatterns = (
     [
         path("", render_index_page, name="home_page"),
         path("admin/", admin.site.urls),
+        path('country/', include('country.urls')),
+        # path('country/',include('country.urls')),
     ]
     + swagger_urlpatterns
     + api_urlpatterns

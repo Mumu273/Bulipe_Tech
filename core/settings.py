@@ -41,7 +41,7 @@ else:
 
 
 # Custom and third-party app configurations
-CUSTOM_APPS = []  # Add your custom apps here
+CUSTOM_APPS = ["country"]  # Add your custom apps here
 
 INSTALLED_LIBRARIES = [
     "rest_framework",
@@ -232,7 +232,7 @@ JAZZMIN_SETTINGS = {
     ],
     "show_sidebar": True,
     "navigation_expanded": False,
-    "show_ui_builder": False,
+    "show_ui_builder": True,
     "default_icon_parents": "fas fa-chevron-circle-down",
     "default_icon_children": "fas fa-arrow-right",
 }
@@ -267,4 +267,5 @@ JAZZMIN_UI_TWEAKS = {
         "danger": "btn-danger",
         "success": "btn-success",
     },
+    "custom_js": "admin/js/custom_filter.js"
 }
