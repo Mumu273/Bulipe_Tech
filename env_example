@@ -1,0 +1,12 @@
+SECRET_KEY=JoFpvDk-L7M-V-ESqDOiIIaAm_OpiuzW8xhPLNDla3C-P_2qC5dB_TOx8wleg6IlMp8
+
+# DATABASE CONFIG
+DB_ENGINE=django.db.backends.postgresql
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=mumu
+DB_PASSWORD=mumu@123
+DB_NAME=bulipe_tech_db
+
+# Define if you are in production or not
+IN_PRODUCTION=False
